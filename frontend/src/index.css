@@ -20,3 +20,11 @@ body {
 .fade-leave-to {
   opacity: 0;
 }
+
+input, textarea, select {
+  @apply border-gray-300 rounded-md shadow-sm;
+}
+
+input:focus, textarea:focus, select:focus {
+  @apply ring-indigo-500 border-indigo-500;
+}
